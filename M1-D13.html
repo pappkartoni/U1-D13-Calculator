@@ -75,15 +75,16 @@ The user should be able to see the list of tasks, add new ones, delete existing 
     <hr />
 
     <input type="color" placeholder="Color" id="colorPicker" />
-    <input
-      type="button"
-      value="Change task background"
-      onclick="changeTaskBackgroundColor()"
-    />
+    <!-- I added this button to get the color changing to work the intended way without destroying the original way i solved it. Sorry about that!! -->
     <input
       type="button"
       value="Change task background the intended(ish) way"
       onclick="changeTaskColor()"
+    />
+    <input
+      type="button"
+      value="Change task background"
+      onclick="changeTaskBackgroundColor()"
     />
 
     <hr />
